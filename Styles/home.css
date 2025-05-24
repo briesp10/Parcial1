@@ -1,0 +1,26 @@
+header{background-color: rgb(5, 72, 68);}
+
+header a {text-decoration: none;
+    color: rgb(251, 244, 244);
+    padding: 5px 12px;
+    font-weight: bold;}
+
+header nav {text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;}
+
+
+body{ background-image: url(suits.portada.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;}
+
+h1{font-size: 50px;}
+
+p{font-family: Arial BLACK;}
+p{font-size: 18px;}
+p{color: rgb(0, 7, 13);}
+
+main {margin: 20;}
