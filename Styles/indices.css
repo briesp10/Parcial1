@@ -1,7 +1,13 @@
 
-header{background-color: rgb(2, 72, 68);}
+header{background-color: rgb(2, 72, 68);
+}
 
-body {background-color: rgb(158, 218, 222);}
+body {background-image: url(/imagenes/suits-1024x540.jpeg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+}
 
 h1 {color: aliceblue;font-family: 'Courier New', Courier, monospace; padding: 15; font-size: 30px}
 
@@ -28,17 +34,17 @@ nav{color: rgb(53, 5, 10); font-family: 'Courier New', Courier, monospace;font-s
 .contenedor {text-align: center;}
 
 .sobrelaserie {margin: 80px; 
-              background-color: rgb(181, 220, 224);}
+              background-color: rgba(255, 255, 255, 0.642);}
     
 .otros {margin: 60px;
-       background-color: rgb(181, 220, 224);}
+       background-color: rgba(255, 255, 255, 0.642);}
 
 .actores {margin: 30px; 
-        background-color: rgb(181, 220, 224);}
+        background-color: rgba(255, 255, 255, 0.642);}
 
 .contac {margin: 60px;
        text-align: center;
-       background-color: rgb(181, 220, 224);}
+       background-color: rgba(255, 255, 255, 0);}
 
 .temp {margin: 80px; 
       border: 20px; 
@@ -47,16 +53,16 @@ nav{color: rgb(53, 5, 10); font-family: 'Courier New', Courier, monospace;font-s
 .parafo1 {margin-bottom: 100px;}
 .parafo2 {margin-bottom: 10ex;}
 
-button {background-color: rgb(24, 24, 24);
+button {background-color: rgba(2, 72, 68, 0.801);
        text-align: center;
        color: aliceblue;
        padding: 10px;
        font-size: 15px;
        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif}
 
-.t1 {background-color: rgb(231, 173, 173);}
+.t1 {background-color: rgba(231, 173, 173, 0.671);}
 
-.t2 {background-color: rgb(167, 236, 212);}
+.t2 {background-color: rgba(167, 236, 212, 0.658);}
 
 .t3 {background-color: rgb(236, 237, 168);}
 
