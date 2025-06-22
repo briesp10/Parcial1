@@ -1,6 +1,8 @@
 
-header{background-color: rgb(2, 72, 68);
+header{background-color: rgba(2, 24, 72, 0.488);
 }
+
+
 
 body {background-image: url(/imagenes/suits-1024x540.jpeg);
       background-repeat: no-repeat;
@@ -19,7 +21,7 @@ p {color: rgb(0, 0, 0);}
 
 nav{color: rgb(53, 5, 10); font-family: 'Courier New', Courier, monospace;font-size: 20px;}
 
-#net {text-decoration: none; font-weight: bold; color: rgb(8, 8, 8); font-size: 30px;}
+#net {text-decoration: none; font-weight: bold; color: white; font-size: 30px;}
 
 #pagPrinc {color: rgb(137, 5, 29);text-decoration: none; text-align: right; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 
@@ -53,12 +55,15 @@ nav{color: rgb(53, 5, 10); font-family: 'Courier New', Courier, monospace;font-s
 .parafo1 {margin-bottom: 100px;}
 .parafo2 {margin-bottom: 10ex;}
 
-button {background-color: rgba(2, 72, 68, 0.801);
+button {background-color: rgba(1, 2, 17, 0.801);
        text-align: center;
        color: aliceblue;
-       padding: 10px;
+       padding: 15px;
        font-size: 15px;
-       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif}
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       border-radius: 25%;
+}
+
 
 .t1 {background-color: rgba(231, 173, 173, 0.671);}
 
