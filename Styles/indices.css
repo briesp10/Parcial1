@@ -23,7 +23,29 @@ nav{color: rgb(53, 5, 10); font-family: 'Courier New', Courier, monospace;font-s
 
 #net {text-decoration: none; font-weight: bold; color: white; font-size: 30px;}
 
-#pagPrinc {color: rgb(137, 5, 29);text-decoration: none; text-align: right; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.icono-home {
+  background-color: rgba(255, 255, 255, 0.373);
+  border: 2px solid rgba(34, 33, 33, 0.838); 
+  border-radius: 50%; 
+  display: inline-block;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+  padding: 5px;
+}
+
+.icono-home:hover {
+  transform: scale(1.1);
+  border-color: rgb(21, 50, 167);
+}
+
+
+#pagPrinc {
+display: flex;
+padding: 5px 50px;
+align-items: center;
+justify-content: right;
+}
+
+
 
 .ima1 {width: 700px;height: 400px;}
 
@@ -50,7 +72,7 @@ nav{color: rgb(53, 5, 10); font-family: 'Courier New', Courier, monospace;font-s
 
 .temp {margin: 80px; 
       border: 20px; 
-      background-color: rgb(181, 220, 224);}
+      background-color: rgba(233, 234, 234, 0.79);}
 
 .parafo1 {margin-bottom: 100px;}
 .parafo2 {margin-bottom: 10ex;}
@@ -65,11 +87,11 @@ button {background-color: rgba(1, 2, 17, 0.801);
 }
 
 
-.t1 {background-color: rgba(231, 173, 173, 0.671);}
+.t1 {background-color: rgba(72, 6, 6, 0.223);}
 
-.t2 {background-color: rgba(167, 236, 212, 0.658);}
+.t2 {background-color: rgba(167, 236, 212, 0.221);}
 
-.t3 {background-color: rgb(236, 237, 168);}
+.t3 {background-color: rgba(236, 237, 168, 0.19);}
 
 .musiFondo {
   position: fixed;
