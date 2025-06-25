@@ -3,7 +3,6 @@ header{background-color: rgba(2, 24, 72, 0.488);
 }
 
 
-
 body {background-image: url(/imagenes/suits-1024x540.jpeg);
       background-repeat: no-repeat;
       background-position: center;
@@ -11,17 +10,27 @@ body {background-image: url(/imagenes/suits-1024x540.jpeg);
       background-attachment: fixed;
 }
 
-h1 {color: aliceblue;font-family: 'Courier New', Courier, monospace; padding: 15; font-size: 30px}
+h1 {color: aliceblue;
+   font-family: 'Courier New', Courier, monospace;
+   padding: 15; font-size: 30px
+}
 
-H2 {color: rgb(16, 0, 0); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 25px; text-align: center;}
+H2 {color: white; 
+  font-family: "Roboto", sans-serif;
+  font-size: 25px; 
+  text-align: center;
+}
 
-p {font-family: sans-serif;}
-p {font-size: 20px;}
-p {color: rgb(0, 0, 0);}
+p  {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color:white;
+  
+  }
 
-nav{color: rgb(53, 5, 10); font-family: 'Courier New', Courier, monospace;font-size: 20px;}
+nav{color: white; font-family: 'Courier New', Courier, monospace;font-size: 20px;}
 
-#net {text-decoration: none; font-weight: bold; color: white; font-size: 30px;}
+#net {text-decoration: none; font-weight: bold; color: rgb(246, 244, 244); font-size: 30px;}
 
 .icono-home {
   background-color: rgba(255, 255, 255, 0.373);
@@ -37,14 +46,12 @@ nav{color: rgb(53, 5, 10); font-family: 'Courier New', Courier, monospace;font-s
   border-color: rgb(21, 50, 167);
 }
 
-
 #pagPrinc {
 display: flex;
 padding: 5px 50px;
 align-items: center;
 justify-content: right;
 }
-
 
 
 .ima1 {width: 700px;height: 400px;}
@@ -55,16 +62,32 @@ justify-content: right;
 
 .ima4 {width: 600px;height: 350px;}
 
+img {
+  display: block;
+  margin: 0 auto 1.5rem;
+  border-radius: 6px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+
+
 .contenedor {text-align: center;}
 
-.sobrelaserie {margin: 80px; 
-              background-color: rgba(255, 255, 255, 0.642);}
+.sobrelaserie {padding: 3px;
+               margin: 80px; 
+              background-color: rgba(46, 45, 45, 0.827);}
     
 .otros {margin: 60px;
-       background-color: rgba(255, 255, 255, 0.642);}
+        padding: 2px;
+        background-color: rgba(46, 45, 45, 0.827);
 
-.actores {margin: 30px; 
-        background-color: rgba(255, 255, 255, 0.642);}
+}
+
+.actores {margin: 80px;
+         padding: 2px;
+         background-color: rgba(46, 45, 45, 0.827);
+      
+      }
 
 .contac {margin: 60px;
        text-align: center;
@@ -72,10 +95,17 @@ justify-content: right;
 
 .temp {margin: 80px; 
       border: 20px; 
-      background-color: rgba(233, 234, 234, 0.79);}
+      background-color: rgba(233, 234, 234, 0.79);
+      
+    }
 
-.parafo1 {margin-bottom: 100px;}
-.parafo2 {margin-bottom: 10ex;}
+.parafo1 {margin-bottom: 100px;
+}
+
+
+.parafo2 {margin-bottom: 10ex;
+         font-family: "Roboto", sans-serif;
+}
 
 button {background-color: rgba(1, 2, 17, 0.801);
        text-align: center;
@@ -86,12 +116,16 @@ button {background-color: rgba(1, 2, 17, 0.801);
        border-radius: 25%;
 }
 
+.t1, .t2, .t3 {background-color: rgba(33, 40, 168, 0.433);
+     padding: 3px;
+    
+}
 
-.t1 {background-color: rgba(72, 6, 6, 0.223);}
+/*.t2 {background-color: rgba(167, 236, 212, 0.722);
+    padding: 3px;
+}
 
-.t2 {background-color: rgba(167, 236, 212, 0.221);}
-
-.t3 {background-color: rgba(236, 237, 168, 0.19);}
+.t3 {background-color: rgba(236, 237, 168, 0.19);}*/
 
 .musiFondo {
   position: fixed;
@@ -108,6 +142,10 @@ button {background-color: rgba(1, 2, 17, 0.801);
 
 }
 
+#temporadas {
+font-family: "Roboto", sans-serif;
 
+
+}
 
 
