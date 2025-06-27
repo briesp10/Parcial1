@@ -5,7 +5,8 @@ header a {text-decoration: none;
     padding: 5px 12px;
     font-weight: bold;}
 
-header nav {text-align: center;
+header nav {
+    text-align: center;
     padding: 15px;
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;}
@@ -36,12 +37,7 @@ body{
 }
 
 
-
-
-
 h1{font-size: 50px;}
-
-
 
 
 p{font-family: Arial BLACK;}
@@ -49,3 +45,23 @@ p{font-size: 18px;}
 p{color: rgb(0, 7, 13);}
 
 main {margin: 20;}
+
+#trailer {
+display: flex;
+margin: 0 auto;
+padding: 50px;
+
+}
+
+footer {
+background-color: rgba(0, 0, 0, 0.768);
+padding: 20px;
+
+}
+
+#piedepagina {
+text-align: center;    
+color: white;
+font-family: "Roboto", sans-serif;
+
+}
