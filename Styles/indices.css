@@ -2,7 +2,6 @@
 header{background-color: rgba(2, 24, 72, 0.488);
 }
 
-
 body {background-image: url(/imagenes/suits-1024x540.jpeg);
       background-repeat: no-repeat;
       background-position: center;
@@ -25,7 +24,6 @@ p  {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   color:white;
-  
   }
 
 nav{color: white; font-family: 'Courier New', Courier, monospace;font-size: 20px;}
@@ -42,6 +40,7 @@ nav{color: white; font-family: 'Courier New', Courier, monospace;font-size: 20px
 }
 
 .icono-home:hover {
+  
   transform: scale(1.1);
   border-color: rgb(21, 50, 167);
 }
@@ -53,14 +52,18 @@ align-items: center;
 justify-content: right;
 }
 
+#imgnet {
+width: 400px;
+height: 300px;
+}
 
 .ima1 {width: 700px;height: 400px;}
 
-.ima2 {width: 600px;height: 400px;}
+.ima2 {width: 700px;height: 400px;}
 
 .ima3 {width: 700px;height: 350px;}
 
-.ima4 {width: 600px;height: 350px;}
+.ima4 {width: 700px;height: 350px;}
 
 img {
   display: block;
@@ -68,8 +71,6 @@ img {
   border-radius: 6px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
 }
-
-
 
 .contenedor {text-align: center;}
 
@@ -107,25 +108,11 @@ img {
          font-family: "Roboto", sans-serif;
 }
 
-button {background-color: rgba(1, 2, 17, 0.801);
-       text-align: center;
-       color: aliceblue;
-       padding: 15px;
-       font-size: 15px;
-       font-family: 'Courier New', Courier, monospace;
-       border-radius: 25%;
-}
 
 .t1, .t2, .t3 {background-color: rgba(33, 40, 168, 0.433);
      padding: 3px;
     
 }
-
-/*.t2 {background-color: rgba(167, 236, 212, 0.722);
-    padding: 3px;
-}
-
-.t3 {background-color: rgba(236, 237, 168, 0.19);}*/
 
 .musiFondo {
   position: fixed;
@@ -139,13 +126,42 @@ button {background-color: rgba(1, 2, 17, 0.801);
 .musiFondo audio {
    width: 200px;
    left: 100px;
-
 }
 
 #temporadas {
 font-family: "Roboto", sans-serif;
 
+}
+
+.formulario {
+background-color: rgba(5, 5, 5, 0.752);
+padding: 20px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+label{
+display: flex;
+flex-direction: column;
+color: white;
+font-family: "Roboto", sans-serif;
 
 }
 
+input {
+height: 30px;
+}
 
+#boton{
+color: brown;
+font-size: 25PX;
+background-color: black;
+border-radius: 90%;
+width: 200PX;
+}

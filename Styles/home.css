@@ -45,3 +45,23 @@ p{font-size: 18px;}
 p{color: rgb(0, 7, 13);}
 
 main {margin: 20;}
+
+#trailer {
+display: flex;
+margin: 0 auto;
+padding: 50px;
+
+}
+
+footer {
+background-color: rgba(0, 0, 0, 0.768);
+padding: 20px;
+
+}
+
+#piedepagina {
+text-align: center;    
+color: white;
+font-family: "Roboto", sans-serif;
+
+}
